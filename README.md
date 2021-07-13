@@ -5,7 +5,11 @@ file upload functionality of the Weechat Android application. All uploaded
 files are put in the same directory on the server. The file names are determined
 by a configurable hashing algorithm, based on the content of the uploaded files.
 
-Access to the upload functionality is limited to a list of predefined users.
+Read more about the Weechat Android file sharing there:
+https://github.com/ubergeek42/weechat-android/wiki/File-sharing
+
+Access to the upload functionality on this backend is limited to a list of
+predefined users, declared in the settings
 
 ## Usage
 
