@@ -12,6 +12,8 @@ flask==2.0.1
     # via
     #   -r requirements.in
     #   flask-httpauth
+gunicorn==20.1.0
+    # via -r requirements.in
 importlib-metadata==4.6.1
     # via click
 itsdangerous==2.0.1
@@ -26,3 +28,6 @@ werkzeug==2.0.1
     # via flask
 zipp==3.5.0
     # via importlib-metadata
+
+# The following packages are considered to be unsafe in a requirements file:
+# setuptools
