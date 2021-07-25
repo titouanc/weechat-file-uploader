@@ -33,6 +33,16 @@ a `file` form field:
 curl -u username --form file=@/path/to/your/file.gif https://my.upload.server/
 ```
 
+### Client-side configuration
+
+In the Weechat Android app, go to `Settings > File sharing`
+
+* Set the Upload URL to your server instance (for example `upload.mypi.cz`)
+* Set the file field to `file`
+* Set the Authentication to `Basic`
+* Set the User to your username
+* Set the Password to your password (unencrypted)
+
 ## Installation
 
 ```bash
