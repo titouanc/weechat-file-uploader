@@ -6,11 +6,11 @@
 #
 click==8.0.1
     # via flask
-flask==2.0.2
+flask==2.0.3
     # via
     #   -r requirements.in
     #   flask-httpauth
-flask_httpauth==4.5.0
+flask-httpauth==4.5.0
     # via -r requirements.in
 gunicorn==20.1.0
     # via -r requirements.in
