@@ -10,7 +10,7 @@ flask==2.1.1
     # via
     #   -r requirements.in
     #   flask-httpauth
-flask-httpauth==4.5.0
+flask-httpauth==4.6.0
     # via -r requirements.in
 gunicorn==20.1.0
     # via -r requirements.in
