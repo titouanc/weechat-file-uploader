@@ -6,7 +6,7 @@
 #
 click==8.0.1
     # via flask
-flask==2.1.1
+flask==2.2.2
     # via
     #   -r requirements.in
     #   flask-httpauth
@@ -18,9 +18,11 @@ itsdangerous==2.0.1
     # via flask
 jinja2==3.0.1
     # via flask
-markupsafe==2.0.1
-    # via jinja2
-werkzeug==2.0.1
+markupsafe==2.1.2
+    # via
+    #   jinja2
+    #   werkzeug
+werkzeug==2.2.2
     # via flask
 
 # The following packages are considered to be unsafe in a requirements file:
